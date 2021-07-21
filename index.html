@@ -33,31 +33,39 @@
     <body>
         
         <!--Navbar-->
+        <!--TODO: Update navbar colors-->
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
           <div class="container-fluid">
 
-            <!--TODO: Higher res logo available?-->
+            <!--Navbar brand-->
+            <!--TODO: Higher res logo available? Or scale down slightly?-->
             <a class="navbar-brand" href="#">
               <img src="images/logo.png" alt="Salon logo">
             </a>
             
-            <!--Navbar menu collapse-->
+            <!--Navbar menu collapse button-->
             <button class="navbar-toggler" type="button" data-mdb-toggle="collapse" data-mdb-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <i class="fas fa-bars"></i>
             </button>
 
             <!--Navbar toggler wrapper-->
-            <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent" role="navigation">
+            <!--TODO: Navbar spread too far? Squish together more?-->
+            <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
 
               <!--Navbar menu items-->
               <ul class="navbar-nav">
+                <li class="nav-item ms-lg-0 ms-1">
+                  <!--Active and aria-current for accessibility-->
+                  <a class="nav-link active" href="#" aria-current="page">Home</a>
+                </li>
+                <!--TODO: bug: no rounded corners on hover shadow in dropdown menu-->
                 <li class="nav-item dropdown ms-lg-0 ms-1">
-                  <a class="nav-link dropdown-toggle" data-mdb-toggle="dropdown" role="button" href="#" aria-expanded="false">Services</a>
-                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="nav-link dropdown-toggle" data-mdb-toggle="dropdown" role="button" href="#" aria-expanded="false" id="navbarDropdownMenuLink">Services</a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                     <a class="dropdown-item" href="#">Hair</a>
                     <a class="dropdown-item" href="#">Nails</a>
                     <a class="dropdown-item" href="#">Waxing</a>
-                    <div class="dropdown-divider"></div>
+                    <hr class="dropdown-divider">
                       <a class="dropdown-item" href="#">Products</a>
                   </ul>
                 </li>
