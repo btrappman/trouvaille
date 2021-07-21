@@ -3,4 +3,8 @@
   height: 20px;
 }
 
+.dropdown-item:hover {
+  border-radius: 5px;
+}
+
 /*# sourceMappingURL=nav.css.map */

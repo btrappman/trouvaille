@@ -5,3 +5,7 @@ $social-height: 20px;
     width: $social-width;
     height: $social-height;
 }
+
+.dropdown-item:hover {
+    border-radius: 5px;
+}
