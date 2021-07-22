@@ -5,3 +5,52 @@ mission statement:
 <p class="mb-3"><b>Product: </b>To provide and use the best products to meet the needs of our guest, their hair, and lifestyle.</p>
 <p class="mb-3"><b>Knowledge: </b>To provide expertise to help you achieve and maintain your desired look. Education for staff to continue growth and development of skill both</p>
 <p class="mb-3"><b>Extraordinary Service: </b>We will value and honor both you and your time.</p>
+
+
+service cards
+
+        <!--Services-->
+        <div class="container-fluid">
+          <div id="services" class="row gy-5">
+
+            <!--Hair Service card-->
+            <div class="col-sm-12 col-md-6 col-lg-3 d-flex align-items-stretch">
+              <div class="card bg-dark text-white ">
+                <img src="images/services/hair.jpg" class="card-img h-100" alt="hair"/>
+                <div class="card-img-overlay" style="background-color: rgba(0.0, 0.0, 0.0, 0.6);">
+                  <h5 class="card-title">Hair</h5>
+                </div>
+              </div>
+            </div>
+
+            <!--Nails-->
+            <div class="col-sm-12 col-md-6 col-lg-3 d-flex align-items-stretch">
+              <div class="card bg-dark text-white">
+                <img src="images/services/nails.jpg" class="card-img h-100" alt="nails"/>
+                <div class="card-img-overlay" style="background-color: rgba(0.0, 0.0, 0.0, 0.6);">
+                  <h5 class="card-title">Nails</h5>
+                </div>
+              </div>
+            </div>
+
+            <!--Waxing-->
+            <div class="col-sm-12 col-md-6 col-lg-3 d-flex align-items-stretch">
+              <div class="card bg-dark text-white">
+                <img src="images/services/wax.jpg" class="card-img h-100" alt="waxing"/>
+                <div class="card-img-overlay" style="background-color: rgba(0.0, 0.0, 0.0, 0.6);">
+                  <h5 class="card-title">Nails</h5>
+                </div>
+              </div>
+            </div>
+
+            <!--Product-->
+            <div class="col-sm-12 col-md-6 col-lg-3 d-flex align-items-stretch">
+              <div class="card bg-dark text-white">
+                <img src="images/services/product.jpg" class="card-img h-100" alt="product"/>
+                <div class="card-img-overlay" style="background-color: rgba(0.0, 0.0, 0.0, 0.6);">
+                  <h5 class="card-title">Nails</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>

@@ -31,7 +31,7 @@
     </head>
 
     <body>
-      <header>
+      <header class="pb-3">
         <!--Navbar-->
         <!--TODO: Update navbar colors-->
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -74,6 +74,10 @@
                 </li>
                 <li class="nav-item ms-lg-0 ms-1">
                     <a class="nav-link" href="#">Events</a>
+                </li>
+                <li class="nav-item ms-lg-0 ms-1">
+                  <a class="nav-link" href="#">Tips</a>
+                </li>
                 <li class="nav-item ms-lg-0 ms-1">
                   <a class="nav-link" href="#">Contact</a>
                 </li>
@@ -119,57 +123,56 @@
         </div>
       </header>
 
-        <!--Main content-->
-      <main class="bg-dark">
-        <div class="container">
-          <div id="services" class="row pt-4">
+      <!--Main content-->
+      <main>
+        <!--Events/Specials/Tips Row-->
+        <div class="container-fluid">
+          <div class="row gy-5 p-4">
 
-            <!--Hair Service card-->
-            <div class="col-md-3">
+            <!--News-->
+            <div class="col-sm-12 col-md-6 d-flex align-items-stretch gx-5">
               <div class="card bg-dark text-white">
-                <img src="images/services/hair.jpg" class="card-img" alt="hair"/>
-                <div class="card-img-overlay" style="background-color: rgba(0.0, 0.0, 0.0, 0.6);">
-                  <h5 class="card-title">Hair</h5>
+                
+                <!--Image overlay-->
+                <div class="card-image hover-overlay">
+                  <img src="images/services/hair.jpg" class="card-img-top" alt="nails"/>
+                  <div class="card-img-overlay" style="background-color: rgba(0.0, 0.0, 0.0, 0.6)"></div>
+                  <div class="mask" style="background-color: rgba(0.0, 0.0, 0.0, 0.25)"></div>
                 </div>
+                
+                <!--Card Content-->
+                <div class="card-body">
+                  <h4 class="card-title">Salon News</h5>
+                  <p class="card-text">Click for salon news, events and specials.</p>
+                </div> 
               </div>
             </div>
 
-            <!--Nails-->
-            <div class="col-md-3">
+            <!--Tips-->
+            <div class="col-sm-12 col-md-6 d-flex align-items-stretch gx-5">
               <div class="card bg-dark text-white">
-                <img src="images/services/nails.jpg" class="card-img" alt="hair"/>
-                <div class="card-img-overlay" style="background-color: rgba(0.0, 0.0, 0.0, 0.6);">
-                  <h5 class="card-title">Nails</h5>
+                
+                <!--Image overlay-->
+                <div class="card-image hover-overlay">
+                  <img src="images/services/nails.jpg" class="card-img-top" alt="nails"/>
+                  <div class="card-img-overlay" style="background-color: rgba(0.0, 0.0, 0.0, 0.6);"></div>
+                  <div class="mask" style="background-color: rgba(0.0, 0.0, 0.0, 0.25)"></div>
                 </div>
+                
+                <!--Card Content-->
+                <div class="card-body">
+                  <h4 class="card-title">Tips</h5>
+                  <p class="card-text">Click for salon tips.</p>
+                </div> 
               </div>
             </div>
 
-            <!--Waxing-->
-            <div class="col-md-3">
-              <div class="card bg-dark text-white">
-                <img src="images/services/nails.jpg" class="card-img" alt="hair"/>
-                <div class="card-img-overlay" style="background-color: rgba(0.0, 0.0, 0.0, 0.6);">
-                  <h5 class="card-title">Nails</h5>
-                </div>
-              </div>
-            </div>
-
-            <!--Makeup-->
-            <div class="col-md-3">
-              <div class="card bg-dark text-white">
-                <img src="images/services/nails.jpg" class="card-img" alt="hair"/>
-                <div class="card-img-overlay" style="background-color: rgba(0.0, 0.0, 0.0, 0.6);">
-                  <h5 class="card-title">Nails</h5>
-                </div>
-              </div>
-            </div>
 
           </div>
         </div>
       </main>
-        
 
-
+      <footer>Trouvaille Footer</footer>
 
         <!--Bootstrap JS functionality and custom js scripts-->
         <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.6.0/mdb.min.js"></script>
