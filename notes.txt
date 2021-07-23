@@ -1,3 +1,11 @@
+colors
+    - navbar:   #262626
+    - main:     #262626
+    - cards:    #212121
+
+
+
+
 mission statement:
 
 <p class="mb-3"><b>Our mission: </b>To inspire our guest to look and feel beautiful, confident, handsome and bold. To provide an extraordinary guest experience in a friendly, warm, and welcoming environment.</p>
@@ -7,7 +15,7 @@ mission statement:
 <p class="mb-3"><b>Extraordinary Service: </b>We will value and honor both you and your time.</p>
 
 
-service cards
+service cards (old)
 
         <!--Services-->
         <div class="container-fluid">
