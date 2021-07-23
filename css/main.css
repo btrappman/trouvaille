@@ -2,18 +2,25 @@ main {
   background-color: #262626;
 }
 
-.welcome h1 {
-  font-family: Montserrat;
+h1 {
+  font-family: Montserrat, sans-serif;
   text-transform: uppercase;
 }
 
-.welcome p {
+h4 {
+  font-family: Montserrat, sans-serif;
+  text-transform: uppercase;
+  color: #70b6d1;
+}
+
+p {
   font-family: "Didact Gothic";
 }
 
 .card-title {
-  font-family: "Montserrat", sans-serif;
+  font-family: Montserrat, sans-serif;
   text-transform: uppercase;
+  color: white;
 }
 
 .card-body {
@@ -27,6 +34,15 @@ main {
   left: 0;
   top: 0;
   background: rgba(0, 0, 0, 0.6);
+}
+
+.btn {
+  font-family: Montserrat, sans-serif;
+  color: white;
+}
+
+.btn:hover {
+  color: #70b6d1;
 }
 
 /*# sourceMappingURL=main.css.map */

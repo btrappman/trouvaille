@@ -1,23 +1,34 @@
+$highlight: #70b6d1;
+$heading: Montserrat, sans-serif;
+$paragraph: 'Didact Gothic';
+
 main {
     background-color: #262626;
 }
 
-.welcome h1 {
-    font-family: Montserrat;
+h1 {
+    font-family: $heading;
     text-transform: uppercase;
 }
 
-.welcome p {
-    font-family: 'Didact Gothic';
+h4 {
+    font-family: $heading;
+    text-transform: uppercase;
+    color: $highlight;
+}
+
+p {
+    font-family: $paragraph;
 }
 
 .card-title {
-    font-family: 'Montserrat', sans-serif;
+    font-family: $heading;
     text-transform: uppercase;
+    color: white;
 }
 
 .card-body {
-    font-family: 'Didact Gothic';
+    font-family: $paragraph;
 }
 
 .overlay {
@@ -29,5 +40,11 @@ main {
     background: rgba(0, 0, 0, 0.6);
 }
 
+.btn {
+    font-family: $heading;
+    color: white;
+}
 
-
+.btn:hover {
+    color: $highlight;
+}
