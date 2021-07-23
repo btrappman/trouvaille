@@ -17,6 +17,16 @@ p {
   font-family: "Didact Gothic";
 }
 
+#services p a {
+  font-family: "Didact Gothic";
+  text-transform: lowercase;
+  color: white;
+}
+
+#services p a:hover {
+  color: #70b6d1;
+}
+
 .welcome h5 {
   font-family: Montserrat, sans-serif;
   color: #70b6d1;

@@ -21,6 +21,17 @@ p {
     font-family: $paragraph;
 }
 
+
+#services p a {
+    font-family: $paragraph;
+    text-transform: lowercase;
+    color: white;
+}
+
+#services p a:hover {
+    color: $highlight;
+}
+
 .welcome h5 {
     font-family: $heading;
     color: $highlight;
