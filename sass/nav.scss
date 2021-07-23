@@ -1,3 +1,7 @@
+$highlight: #70b6d1;
+$heading: Montserrat, sans-serif;
+$paragraph: 'Didact Gothic';
+
 .dropdown-item:hover {
     border-radius: 5px;
 }
@@ -9,4 +13,20 @@ a {
 
 .dropdown-item {
     color: black;
+}
+
+.navbar .navbar-toggler[aria-expanded="true"] {
+    color: rgba($color: white, $alpha: 0.5)!important;
+}
+
+.navbar .navbar-toggler:focus{
+    color: rgba($color: white, $alpha: 0.5);
+}
+
+.navbar .navbar-toggler:hover{
+    color: $highlight;
+}
+
+.navbar .navbar-toggler[aria-expanded="true"]:hover {
+    color: $highlight!important;
 }
