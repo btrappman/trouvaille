@@ -2,6 +2,24 @@ main {
   background-color: #262626;
 }
 
+.welcome h1 {
+  font-family: Montserrat;
+  text-transform: uppercase;
+}
+
+.welcome p {
+  font-family: "Didact Gothic";
+}
+
+.card-title {
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+}
+
+.card-body {
+  font-family: "Didact Gothic";
+}
+
 .overlay {
   position: relative;
   min-height: 100%;
