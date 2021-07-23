@@ -1,0 +1,16 @@
+footer {
+  background-color: #212121;
+}
+
+footer h3 {
+  font-family: Montserrat, sans-serif;
+  text-transform: uppercase;
+}
+
+footer a {
+  font-family: "Didact Gothic";
+  text-transform: lowercase;
+  color: white;
+}
+
+/*# sourceMappingURL=footer.css.map */

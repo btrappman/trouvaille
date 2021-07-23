@@ -1,0 +1,18 @@
+$highlight: #70b6d1;
+$heading: Montserrat, sans-serif;
+$paragraph: 'Didact Gothic';
+
+footer {
+    background-color: #212121;
+}
+
+footer h3 {
+    font-family: $heading;
+    text-transform: uppercase;
+}
+
+footer a {
+    font-family: $paragraph;
+    text-transform: lowercase;
+    color: white;
+}
