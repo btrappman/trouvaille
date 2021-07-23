@@ -21,6 +21,11 @@ p {
     font-family: $paragraph;
 }
 
+.welcome h5 {
+    font-family: $heading;
+    color: $highlight;
+}
+
 .card-title {
     font-family: $heading;
     text-transform: uppercase;

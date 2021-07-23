@@ -17,6 +17,11 @@ p {
   font-family: "Didact Gothic";
 }
 
+.welcome h5 {
+  font-family: Montserrat, sans-serif;
+  color: #70b6d1;
+}
+
 .card-title {
   font-family: Montserrat, sans-serif;
   text-transform: uppercase;
