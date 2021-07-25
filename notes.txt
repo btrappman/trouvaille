@@ -62,3 +62,74 @@ service cards (old)
             </div>
           </div>
         </div>
+
+
+
+new service cards
+
+<!--Hair Service card-->
+            <div class="col-sm-6 col-md-3 d-flex align-items-stretch gx-5">
+              <div class="card bg-dark text-white shadow-5-strong">
+                
+                <!--Card Image-->
+                <div class="card-image hover-overlay">
+                  <img src="images/services/hair.jpg" class="card-img" alt="hair"/>
+                  <div class="card-img-overlay" style="background-color: rgba(0.0, 0.0, 0.0, 0.6);"></div>
+                  
+                  <!--Card Content-->
+                  <div class="card-img-overlay" style="position: relative;">
+                    <h6 class="card-title">Hair Services</h6>
+                  </div> 
+
+                  <!--Image mask-->
+                  <div class="mask" style="background-color: rgba(0.0, 0.0, 0.0, 0.25)">
+                    <a href="#" class="stretched-link"></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!--Nails service card-->
+            <div class="col-sm-6 col-md-3 d-flex align-items-stretch gx-5">
+              <div class="card bg-dark text-white shadow-5-strong">
+                
+                <!--Card Image-->
+                <div class="card-image hover-overlay">
+                  <img src="images/services/nails.jpg" class="card-img" alt="nails"/>
+                  <div class="card-img-overlay" style="background-color: rgba(0.0, 0.0, 0.0, 0.6);"></div>
+                  
+                  <!--Card Content-->
+                  <div class="card-img-overlay" style="position: relative;">
+                    <h6 class="card-title">Nail Services</h6>
+                    
+                  </div> 
+
+                  <!--Image mask-->
+                  <div class="mask" style="background-color: rgba(0.0, 0.0, 0.0, 0.25)">
+                    <a href="#" class="stretched-link"></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!--Waxing service card-->
+            <div class="col-sm-6 col-md-3 d-flex align-items-stretch gx-5">
+              <div class="card bg-dark text-white shadow-5-strong">
+                
+                <!--Card Image-->
+                <div class="card-image hover-overlay">
+                  <img src="images/services/wax.jpg" class="card-img" alt="wax"/>
+                  <div class="card-img-overlay" style="background-color: rgba(0.0, 0.0, 0.0, 0.6);"></div>
+                  
+                  <!--Card Content-->
+                  <div class="card-img-overlay" style="position: relative;">
+                    <h6 class="card-title">Waxing Services</h6>
+                  </div> 
+
+                  <!--Image mask-->
+                  <div class="mask" style="background-color: rgba(0.0, 0.0, 0.0, 0.25)">
+                    <a href="#" class="stretched-link"></a>
+                  </div>
+                </div>
+              </div>
+            </div>
