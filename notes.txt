@@ -15,121 +15,29 @@ mission statement:
 <p class="mb-3"><b>Extraordinary Service: </b>We will value and honor both you and your time.</p>
 
 
-service cards (old)
-
-        <!--Services-->
-        <div class="container-fluid">
-          <div id="services" class="row gy-5">
-
-            <!--Hair Service card-->
-            <div class="col-sm-12 col-md-6 col-lg-3 d-flex align-items-stretch">
-              <div class="card bg-dark text-white ">
-                <img src="images/services/hair.jpg" class="card-img h-100" alt="hair"/>
-                <div class="card-img-overlay" style="background-color: rgba(0.0, 0.0, 0.0, 0.6);">
-                  <h5 class="card-title">Hair</h5>
-                </div>
-              </div>
-            </div>
-
-            <!--Nails-->
-            <div class="col-sm-12 col-md-6 col-lg-3 d-flex align-items-stretch">
-              <div class="card bg-dark text-white">
-                <img src="images/services/nails.jpg" class="card-img h-100" alt="nails"/>
-                <div class="card-img-overlay" style="background-color: rgba(0.0, 0.0, 0.0, 0.6);">
-                  <h5 class="card-title">Nails</h5>
-                </div>
-              </div>
-            </div>
-
-            <!--Waxing-->
-            <div class="col-sm-12 col-md-6 col-lg-3 d-flex align-items-stretch">
-              <div class="card bg-dark text-white">
-                <img src="images/services/wax.jpg" class="card-img h-100" alt="waxing"/>
-                <div class="card-img-overlay" style="background-color: rgba(0.0, 0.0, 0.0, 0.6);">
-                  <h5 class="card-title">Nails</h5>
-                </div>
-              </div>
-            </div>
-
-            <!--Product-->
-            <div class="col-sm-12 col-md-6 col-lg-3 d-flex align-items-stretch">
-              <div class="card bg-dark text-white">
-                <img src="images/services/product.jpg" class="card-img h-100" alt="product"/>
-                <div class="card-img-overlay" style="background-color: rgba(0.0, 0.0, 0.0, 0.6);">
-                  <h5 class="card-title">Nails</h5>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-
-
-new service cards
-
-<!--Hair Service card-->
-            <div class="col-sm-6 col-md-3 d-flex align-items-stretch gx-5">
-              <div class="card bg-dark text-white shadow-5-strong">
+service cards (Learn More)
+<!--Hair service card-->
+            <div class="col-sm-6 col-md-3 gx-5">
+              <div class="card bg-dark text-white shadow-5-strong hover-overlay d-flex align-items-stretch">
                 
                 <!--Card Image-->
-                <div class="card-image hover-overlay">
+                <div class="card-image d-flex h-100">
                   <img src="images/services/hair.jpg" class="card-img" alt="hair"/>
-                  <div class="card-img-overlay" style="background-color: rgba(0.0, 0.0, 0.0, 0.6);"></div>
+                  <div class="card-img-overlay" style="background-color: rgba(0.0, 0.0, 0.0, 0.4);"></div>
                   
                   <!--Card Content-->
-                  <div class="card-img-overlay" style="position: relative;">
+                  <div class="card-img-overlay d-flex align-items-end justify-content-left">
                     <h6 class="card-title">Hair Services</h6>
-                  </div> 
-
-                  <!--Image mask-->
-                  <div class="mask" style="background-color: rgba(0.0, 0.0, 0.0, 0.25)">
-                    <a href="#" class="stretched-link"></a>
                   </div>
-                </div>
-              </div>
-            </div>
-
-            <!--Nails service card-->
-            <div class="col-sm-6 col-md-3 d-flex align-items-stretch gx-5">
-              <div class="card bg-dark text-white shadow-5-strong">
-                
-                <!--Card Image-->
-                <div class="card-image hover-overlay">
-                  <img src="images/services/nails.jpg" class="card-img" alt="nails"/>
-                  <div class="card-img-overlay" style="background-color: rgba(0.0, 0.0, 0.0, 0.6);"></div>
                   
-                  <!--Card Content-->
-                  <div class="card-img-overlay" style="position: relative;">
-                    <h6 class="card-title">Nail Services</h6>
-                    
-                  </div> 
-
-                  <!--Image mask-->
+                  <!--Image Mask-->
                   <div class="mask" style="background-color: rgba(0.0, 0.0, 0.0, 0.25)">
                     <a href="#" class="stretched-link"></a>
                   </div>
                 </div>
               </div>
-            </div>
 
-            <!--Waxing service card-->
-            <div class="col-sm-6 col-md-3 d-flex align-items-stretch gx-5">
-              <div class="card bg-dark text-white shadow-5-strong">
-                
-                <!--Card Image-->
-                <div class="card-image hover-overlay">
-                  <img src="images/services/wax.jpg" class="card-img" alt="wax"/>
-                  <div class="card-img-overlay" style="background-color: rgba(0.0, 0.0, 0.0, 0.6);"></div>
-                  
-                  <!--Card Content-->
-                  <div class="card-img-overlay" style="position: relative;">
-                    <h6 class="card-title">Waxing Services</h6>
-                  </div> 
-
-                  <!--Image mask-->
-                  <div class="mask" style="background-color: rgba(0.0, 0.0, 0.0, 0.25)">
-                    <a href="#" class="stretched-link"></a>
-                  </div>
-                </div>
-              </div>
+              <p class="text-center mt-2">
+                <a href="#"><span class="fleur">&#9884;</span> Learn More <span class="fleur">&#9884;</span> </a>
+              </p>
             </div>
