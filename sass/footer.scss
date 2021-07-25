@@ -17,6 +17,10 @@ footer a {
     color: white;
 }
 
+footer a:hover {
+    color: $highlight !important;
+}
+
 .hours p {
     margin-bottom: 0px;
 }
