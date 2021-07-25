@@ -9,7 +9,7 @@ footer h3 {
 
 footer a {
   font-family: "Didact Gothic";
-  text-transform: lowercase;
+  text-transform: none;
   color: white;
 }
 
