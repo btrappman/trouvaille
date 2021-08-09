@@ -61,11 +61,11 @@ p {
 }
 
 #scroll-top {
-  color: #212121;
-  background-color: #303030;
+  color: white;
+  background-color: #212121;
   position: fixed;
-  bottom: 20px;
-  right: 20px;
+  bottom: 15px;
+  right: 15px;
   display: none;
 }
 
