@@ -64,3 +64,11 @@ p {
 .btn:hover {
     color: $highlight;
 }
+
+#scroll-top {
+    background-color: #303030;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+}
