@@ -11,7 +11,7 @@ h1 {
     text-transform: uppercase;
 }
 
-h4 {
+h5 {
     font-family: $heading;
     text-transform: uppercase;
     color: $highlight;
@@ -21,6 +21,11 @@ p {
     font-family: $paragraph;
 }
 
+.welcome h5 {
+    font-family: $heading;
+    color: $highlight;
+    text-transform: none;
+}
 
 #services p a {
     font-family: $paragraph;
@@ -32,16 +37,12 @@ p {
     color: $highlight;
 }
 
-.welcome h5 {
-    font-family: $heading;
-    color: $highlight;
-}
-
 .card-title {
     font-family: $heading;
     text-transform: uppercase;
     color: white;
 }
+
 
 .card-body {
     font-family: $paragraph;

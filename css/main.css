@@ -7,7 +7,7 @@ h1 {
   text-transform: uppercase;
 }
 
-h4 {
+h5 {
   font-family: Montserrat, sans-serif;
   text-transform: uppercase;
   color: #70b6d1;
@@ -17,6 +17,12 @@ p {
   font-family: "Didact Gothic";
 }
 
+.welcome h5 {
+  font-family: Montserrat, sans-serif;
+  color: #70b6d1;
+  text-transform: none;
+}
+
 #services p a {
   font-family: "Didact Gothic";
   text-transform: lowercase;
@@ -24,11 +30,6 @@ p {
 }
 
 #services p a:hover {
-  color: #70b6d1;
-}
-
-.welcome h5 {
-  font-family: Montserrat, sans-serif;
   color: #70b6d1;
 }
 

@@ -1,43 +1,34 @@
+<!--Staff-->
+      <div class="container-fluid">
+
+        <!--Jenny-->
+        <div class="row">
+
+          <!--Picture-->
+          <div class="col-md-4">
+            <div class="pt-5 d-flex justify-content-center">
+              <img src="img/team/jenny.jpg" alt="Jenny" height="400px">
+            </div>
+          </div>
+
+          <!--Content-->
+          <div class="col-md-8">
+            <div class="p-5 pb-4 bg-dark text-white welcome">
+              <h1 class="mb-1 text-uppercase">Trouvaille</h1>
+              <h5 class="mb-1">\troo-vī \ n. [FRENCH]</h4>
+              <h5 class="mb-3">A Lucky find or discovery.</h4>
+              <p class="mb-3"><b>Our mission: </b>To inspire our guest to look and feel beautiful, confident, handsome and bold. To provide an extraordinary guest experience in a friendly, warm, and welcoming environment.</p>
+              <p class="mb-3"><b>Our promise: </b>To provide our guests with exceptional product, knowledge, and extraordinary service.</p>
+              <p class="mb-3"><b>Product: </b>To provide and use the best products to meet the needs of our guest, their hair, and lifestyle.</p>
+              <p class="mb-3"><b>Knowledge: </b>To provide expertise to help you achieve and maintain your desired look. Education for staff to continue growth and development of skill both</p>
+              <p class="mb-3"><b>Extraordinary Service: </b>We will value and honor both you and your time.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
 colors
     - navbar:   #262626
     - main:     #262626
     - cards:    #212121
-
-
-
-
-mission statement:
-
-<p class="mb-3"><b>Our mission: </b>To inspire our guest to look and feel beautiful, confident, handsome and bold. To provide an extraordinary guest experience in a friendly, warm, and welcoming environment.</p>
-<p class="mb-3"><b>Our promise: </b>To provide our guests with exceptional product, knowledge, and extraordinary service.</p>
-<p class="mb-3"><b>Product: </b>To provide and use the best products to meet the needs of our guest, their hair, and lifestyle.</p>
-<p class="mb-3"><b>Knowledge: </b>To provide expertise to help you achieve and maintain your desired look. Education for staff to continue growth and development of skill both</p>
-<p class="mb-3"><b>Extraordinary Service: </b>We will value and honor both you and your time.</p>
-
-
-service cards (Learn More)
-<!--Hair service card-->
-            <div class="col-sm-6 col-md-3 gx-5">
-              <div class="card bg-dark text-white shadow-5-strong hover-overlay d-flex align-items-stretch">
-                
-                <!--Card Image-->
-                <div class="card-image d-flex h-100">
-                  <img src="images/services/hair.jpg" class="card-img" alt="hair"/>
-                  <div class="card-img-overlay" style="background-color: rgba(0.0, 0.0, 0.0, 0.4);"></div>
-                  
-                  <!--Card Content-->
-                  <div class="card-img-overlay d-flex align-items-end justify-content-left">
-                    <h6 class="card-title">Hair Services</h6>
-                  </div>
-                  
-                  <!--Image Mask-->
-                  <div class="mask" style="background-color: rgba(0.0, 0.0, 0.0, 0.25)">
-                    <a href="#" class="stretched-link"></a>
-                  </div>
-                </div>
-              </div>
-
-              <p class="text-center mt-2">
-                <a href="#"><span class="fleur">&#9884;</span> Learn More <span class="fleur">&#9884;</span> </a>
-              </p>
-            </div>
