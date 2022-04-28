@@ -23,6 +23,12 @@ p {
   text-transform: none;
 }
 
+.menu {
+  font-family: "Didact Gothic";
+  text-transform: lowercase;
+  color: white;
+}
+
 #services p a {
   font-family: "Didact Gothic";
   text-transform: lowercase;
